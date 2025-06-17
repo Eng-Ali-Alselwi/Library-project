@@ -1,0 +1,51 @@
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Laravel
+/vendor/
+node_modules/
+.env
+.env.*
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-error.log
+
+# Laravel specific folders
+/storage/*
+!/storage/app/
+/storage/app/*
+!/storage/app/public/
+/storage/framework/
+/storage/logs/
+
+# Cache
+bootstrap/cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.tmp
+*.bak
+*.swp
